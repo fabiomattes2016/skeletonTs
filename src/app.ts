@@ -1,6 +1,6 @@
 import './global.scss'
+import { Main } from './components/main'
 
-let p = document.createElement('p')
-let text: string = "Template Typescript com WebPack"
-p.textContent = text
-document.body.appendChild(p)
+let main = new Main()
+
+main.render()
